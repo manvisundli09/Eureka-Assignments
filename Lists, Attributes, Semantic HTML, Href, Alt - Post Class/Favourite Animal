@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <header>
+        <h1 style="font-size: 48px">CatPhotoApp</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1>Cat Photos</h1>
+            <p>Click here to view more <a href="https://pixabay.com/images/search/cat/">cat photos.</a></p>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Relaxing Cat">
+        </section>
+        <section>
+            <h1>Cat list</h1>
+
+            <section>
+                <h2>Things Cats Love</h2>
+
+                <ul>
+                    <li>cat nips</li>
+                    <li>laser pointers</li>
+                    <li>
+                        lasagna
+                        <div>
+                            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Lasagna">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Top 3 things cats hate</h2>
+
+                <ol>
+                    <li>flea treatments</li>
+                    <li>thunder</li>
+                    <li>other cats
+
+                        <div>
+                            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                                alt="many cats playing">
+                            <br/>Cats hate other cats
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+
+        </section>
+        <section>
+            <h1>Cat form</h1>
+
+
+        </section>
+    </main>
+
+    <footer>No copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></footer>
+</body>
+
+</html>
