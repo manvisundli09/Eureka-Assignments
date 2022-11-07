@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/about/">About us</a></li>
+        <li><a href="/blog/">Contact us</a></li>
+    </ul>
+</nav>
+<h1>3 random images</h1>
+<img src = "https://picsum.photos/id/123/200/300" controls></img>
+<br>
+<img src = "https://picsum.photos/id/124/200/300" controls></img>
+<br>
+<img src = "https://picsum.photos/id/125/200/300" controls></img>
+</html>
