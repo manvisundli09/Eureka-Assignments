@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        main {
+    background-color: black ;
+    width: 150px;
+    height: 150px;
+    }
+    p{
+        color: white;
+        margin-left: 32px;
+        padding: 10px;
+    }
+    </style>
+    <body>
+    <main class="newton" id="school"><p class="hello-newton">Hello Newton School</p></main>
+    </body>
+</html>
