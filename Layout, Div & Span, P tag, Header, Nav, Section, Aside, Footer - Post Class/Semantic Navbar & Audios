@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/about/">About us</a></li>
+        <li><a href="/blog/">Contact us</a></li>
+    </ul>
+</nav>
+<h1>3 random audios</h1>
+<audio src = "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type= "audio/mp3" controls></audio>
+<br>
+<audio src = "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type= "audio/ogg" controls></audio>
+<br>
+<audio src = "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type= "audio/mp3" controls></audio>
+</html>
