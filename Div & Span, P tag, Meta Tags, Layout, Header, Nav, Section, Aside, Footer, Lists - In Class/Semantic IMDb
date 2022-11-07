@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<header>Twlight</header>
+<nav>
+    <li><a href="#actor" id="nav-actor">Actor</a></li>
+    <li><a href="#quote" id="nav-quote">Quote</a></li>
+</nav>
+<summary>Its a movies about a love story between vampire and human.</summary>
+
+<section id="actor">
+<h2>Actor</h2>
+<p>Robert Patinson is the male lead.</p>
+</section>
+
+<section id="quote">
+<h2>Quote</h2>
+<p>How long have you been 17? -awhile</p>
+</section>
+<aside>
+<h4>imdb rating</h4>
+<p>4.5</p>
+</aside>
+<footer>
+  <p>Produced by: asdfghjkl </p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
