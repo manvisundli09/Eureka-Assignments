@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<h1>Job App Form</h1>
+<form id="form" method="POST">
+    <ul><label for="name">Name</label>
+        <input id="name" type="text" placeholder="enter name" required>
+    </ul>
+    <ul><label for="email">Email</label>
+        <input id="email" type="email" placeholder="enter email" required>
+    </ul>
+    <ul><label for="gender">Gender</label>
+        <input type="radio" id="femalegender" name="gender" required>
+        <label for="femalegender">Female</label>
+        <input type="radio" id="malegender" name="gender" required>
+        <label for="malegender">Male</label>
+    </ul>
+    <ul><label for="laptop">Laptops Brands</label>
+        <select id="laptop" name="laptops">
+            <option>Apple</option>
+            <option>Asus</option>
+            <option>HP</option>
+        </select>
+    </ul>
+    <ul><label for="age">Age</label>
+        <input id="age" type="number" placeholder="enter age" required>
+    </ul>
+    <ul><label for="dob">DOB</label>
+        <input id="dob" type="date" required>
+    </ul>
+    <ul><label for="password">Password</label>
+        <input id="password" type="password" placeholder="enter password" required>
+    </ul>
+    <ul>
+        <label for="portfolio">Portfolio URL</label> 
+        <input type="url" id="portfolio" placeholder="upload url" required> 
+    </ul>
+    <button type="submit" name="submit">Submit</button>
+</form>
+<footer>No copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></footer>
+</html>
