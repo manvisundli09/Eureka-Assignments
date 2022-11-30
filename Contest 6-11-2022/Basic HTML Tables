@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <header><h1>Basic HTML Tables</h1></header>
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>001</td>
+                <td>aaa</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>bbb</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>ccc</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>ddd</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>eee</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>fff</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>ggg</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>hhh</td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+table{
+    width: 500px;
+}
+</style>
