@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<h1>Car Form</h1>
+<form id="form" action="" method="POST">
+    <ul><label for="name">Name</label>
+        <input id="name" type="text" required>
+    </ul>
+    <ul><label for="email">Email</label>
+        <input id="email" type="email" required>
+    </ul>
+    <ul><label for="gender">Gender</label>
+        <input type="radio" id="femalegender" name="gender" required>
+        <label for="femalegender">Female</label>
+        <input type="radio" id="malegender" name="gender" required>
+        <label for="malegender">Male</label>
+    </ul>
+    <ul><label for="cars">Car Brands</label>
+        <select id="cars" name="cars">
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Mercedezi</option>
+        </select>
+    </ul>
+    <ul><label for="age">Age</label>
+        <input id="age" type="number" required>
+    </ul>
+    <ul><label for="dob">DOB</label>
+        <input id="dob" type="date" required>
+    </ul>
+    <ul><label for="password">Password</label>
+        <input id="password" type="password" required>
+    </ul>
+    <button type="submit" name="submit">Submit</button>
+</form>
+<footer>No copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></footer>
+</html>
