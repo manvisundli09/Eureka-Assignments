@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<header>IPL Season 2022 Points</header>
+<style>
+header{
+    text-align: center;
+    font-weight: bold;
+}
+thead th{
+    background-color: #00008b;
+    color: #ffffff;
+}
+tbody td:nth-child(1){
+    background-color: #f2f2f2;
+}
+tbody td:nth-child(8){
+    background-color: #d1d1d1;
+}
+tbody td{
+   border: solid 1px #dddddd;
+}
+</style>
+<table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Team</th>
+            <th>Matches</th>
+            <th>Won</th>
+            <th>Lost</th>
+            <th>Tied</th>
+            <th>NRR</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody id="data">
+    </tbody>
+    <script>
+    fetch("https://my-json-server.typicode.com/FreSauce/json-ipl/data").then(
+  res => {
+    res.json().then(
+      data => {
+        console.log(data);
+        if (data.length > 0) {
+
+          var temp = "";
+          data.forEach((itemData) => {
+            temp += "<tr>";
+            temp += "<td>" + itemData.No + "</td>";
+            temp += "<td>" + itemData.Team + "</td>";
+            temp += "<td>" + itemData.Matches + "</td>";
+            temp += "<td>" + itemData.Won + "</td>";
+            temp += "<td>" + itemData.Lost + "</td>";
+            temp += "<td>" + itemData.Tied + "</td>";
+            temp += "<td>" + itemData.NRR + "</td>";
+            temp += "<td>" + itemData.Points + "</td>";
+          });
+          document.getElementById('data').innerHTML = temp;
+        }
+      }
+    )
+  }
+)
+    </script>
+</table>
