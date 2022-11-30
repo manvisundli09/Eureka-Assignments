@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<table>
+    <thead>
+        <tr>
+            <th>Roll numbers</th>
+            <th>Names</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>12</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>asd</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>asd</td>
+        </tr>
+    </tbody>
+</table>
+<h1>List of medias</h1>
+<nav>
+    <ol>
+    <li><img alt="droplets" src = "https://picsum.photos/id/123/200/300" controls></img></li>
+    <li><video width="320" height="240" control><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"></video></li>
+    <li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" controls></audio></li>
+</ol>
+</nav>
