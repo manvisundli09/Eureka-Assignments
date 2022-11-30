@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<h1>Dog Adoption Application</h1>
+<form id="form" method="POST">
+    <ul><label for="name">Name</label>
+        <input id="name" type="text" placeholder="Name" required>
+    </ul>
+    <ul><label for="phone">Phone Number</label>
+        <input id="phone" type="text" placeholder="Phone Number" required>
+    </ul>
+    <ul><label for="address">Address</label>
+        <input id="address" type="text" placeholder="Address" required>
+    </ul>
+    <ul><label for="checkbox">Have you ever lived with a Dog before?</label>
+        <input id="checkbox" type="checkbox" value="Have you ever lived with a Dog before?" required>
+    </ul>
+    <ul><label for="multiSelect">Please select your preferred breeds</label>
+        <select id="multiSelect" required>
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+        </select>
+    </ul>
+    <ul>
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="Submit"></input>
+    </ul>
+</form>
+<footer>No copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></footer>
+</html>
