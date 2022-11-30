@@ -1,0 +1,26 @@
+<div class="holder">
+        <div class="item item-1">
+            Place me in center using flex
+        </div>
+    </div>
+    
+<style>
+    .holder{
+            width: 100vw;
+            height: 100vh;
+            /* write code below */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+        }
+        .item-1{
+            background-color: red;
+            justify-content: center;
+        }
+</style>
